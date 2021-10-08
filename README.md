@@ -15,6 +15,10 @@ https://www.typescriptlang.org/docs/
 
 https://www.typescriptlang.org/play
 
+https://regexr.com/
+
+https://www.regextester.com/
+
 Types existem primitivos (minusculos) e
 Objetos (Maiusculo)
 

@@ -27,3 +27,11 @@ mostrarQualquerCoisa({num1:1,num2:2,num3:3})
 var x:any = 100;
 x = "teste"
 console.log(typeof(x));
+
+// function com valor default
+function valorDefault(informar:string, valor:string = 'testeValorDefault'){
+  console.log(informar, valor);
+}
+
+valorDefault('informações');
+valorDefault('informações','novovalor');

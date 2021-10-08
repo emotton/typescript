@@ -22,3 +22,9 @@ mostrarQualquerCoisa({ num1: 1, num2: 2, num3: 3 });
 var x = 100;
 x = "teste";
 console.log(typeof (x));
+// function com valor default
+function valorDefault(informar, valor = 'testeValorDefault') {
+    console.log(informar, valor);
+}
+valorDefault('informações');
+valorDefault('informações', 'novovalor');
